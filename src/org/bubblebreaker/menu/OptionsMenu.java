@@ -1,3 +1,5 @@
+package org.bubblebreaker.menu;
+
 import javax.microedition.lcdui.TextField;
 import javax.microedition.lcdui.Form;
 import javax.microedition.lcdui.ChoiceGroup;
@@ -9,6 +11,8 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+
+import org.bubblebreaker.consts.StrConsts;
 
 public class OptionsMenu {
 	private int quantity;

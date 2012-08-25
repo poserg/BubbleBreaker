@@ -1,3 +1,5 @@
+package org.bubblebreaker.consts;
+
 public class StrConsts {
 	public static String S_OPTIONS;
 	public static String S_ABOUT;

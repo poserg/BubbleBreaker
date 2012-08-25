@@ -1,3 +1,5 @@
+package org.bubblebreaker.view;
+
 //import javax.microedition.lcdui.*;
 
 public class Bubble extends Object

@@ -1,3 +1,5 @@
+package org.bubblebreaker.view;
+
 import javax.microedition.lcdui.Canvas;
 import javax.microedition.lcdui.Graphics;
 import javax.microedition.lcdui.Image;
@@ -7,6 +9,9 @@ import javax.microedition.lcdui.Displayable;
 import javax.microedition.lcdui.Font;
 import java.util.Random;
 import java.lang.Math;
+
+import org.bubblebreaker.consts.StrConsts;
+import org.bubblebreaker.menu.Menu;
 
 public class Game extends Canvas {
 	//private Image[] images;

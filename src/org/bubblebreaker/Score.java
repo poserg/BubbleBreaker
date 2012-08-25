@@ -1,3 +1,5 @@
+package org.bubblebreaker;
+
 import javax.microedition.lcdui.List;
 import javax.microedition.lcdui.Display;
 import javax.microedition.lcdui.Command;
@@ -9,6 +11,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+
+import org.bubblebreaker.consts.StrConsts;
+import org.bubblebreaker.menu.Menu;
 
 class ScoreType {
 	public String name;

@@ -1,5 +1,9 @@
+package org.bubblebreaker;
+
 import javax.microedition.lcdui.Display;
 import javax.microedition.midlet.MIDlet;
+
+import org.bubblebreaker.menu.Menu;
 
 public class BubbleBreaker extends MIDlet {
 	protected void destroyApp (boolean destr) {
@@ -18,5 +22,8 @@ public class BubbleBreaker extends MIDlet {
 		destroyApp (true);
 	}
 
+	public void destroy() {
+		destroyApp (true);
+	}
 }
 

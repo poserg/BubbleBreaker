@@ -1,3 +1,5 @@
+package org.bubblebreaker.view;
+
 //import javax.microedition.lcdui.Canvas;
 import javax.microedition.lcdui.Graphics;
 import java.util.Vector;

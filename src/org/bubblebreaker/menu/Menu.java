@@ -1,3 +1,5 @@
+package org.bubblebreaker.menu;
+
 import javax.microedition.lcdui.List;
 import javax.microedition.lcdui.Display;
 import javax.microedition.lcdui.Command;
@@ -5,6 +7,11 @@ import javax.microedition.lcdui.CommandListener;
 import javax.microedition.lcdui.Displayable;
 import javax.microedition.lcdui.Alert;
 import javax.microedition.lcdui.AlertType;
+
+import org.bubblebreaker.BubbleBreaker;
+import org.bubblebreaker.consts.StrConsts;
+import org.bubblebreaker.Score;
+import org.bubblebreaker.view.Game;
 
 public class Menu implements CommandListener {
 	private Display display;
@@ -53,7 +60,7 @@ public class Menu implements CommandListener {
 					break;
 				case 3 : display.setCurrent (aboutAlert);
 					 break;
-				case 4 : midlet.destroyApp (true);
+				case 4 : midlet.destroy ();
 					 break;
 				default :  return;
 			}
