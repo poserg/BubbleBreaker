@@ -1,3 +1,9 @@
 classes/*
 .gitignore
 tmp*/*
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
